@@ -132,7 +132,7 @@ export default function Home() {
             </h3>
             <p className="mt-2 text-zinc-400">Matriculation</p>
             <p className="mt-3 text-sm text-zinc-500">
-              2023 — Present • 91.4%
+              2023 — Completed • 91.4%
             </p>
           </div>
           <div className="card p-6">
@@ -158,10 +158,12 @@ export default function Home() {
             <p className="mt-2 text-zinc-400">
               Certificate of Participation • Team Aethros • PES University
             </p>
-            <p className="mt-3 text-sm text-zinc-500">
-              12–13 September 2025
-            </p>
-              <div className="card p-6">
+           <p className="mt-3 text-sm text-zinc-500">
+  12–13 September 2025
+</p>
+</div>
+
+<div className="card p-6">
             <BookOpen />
             <h3 className="mt-6 text-xl font-semibold">
               AWS Educate – Machine Learning Foundations
@@ -180,7 +182,6 @@ export default function Home() {
             >
               Verify credential ↗
             </a>
-          </div>
           </div>
         </div>
       </section>
