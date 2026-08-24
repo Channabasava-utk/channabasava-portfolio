@@ -122,8 +122,8 @@ export default function Home() {
               Bachelor of Technology — Artificial Intelligence
             </p>
             <p className="mt-3 text-sm text-zinc-500">
-              2025 — 2029 • CGPA 9.15
-            </p>
+  2025 — 2029 • First-Year CGPA: 9.15
+</p>
           </div>
           <div className="card p-6">
             <GraduationCap />
