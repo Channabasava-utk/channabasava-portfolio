@@ -64,12 +64,13 @@ export default function Home() {
 
           <div className="mt-9 flex gap-3">
 
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center rounded-full bg-zinc-100 px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-white"
-            >
-              Contact me
-            </a>
+           <a
+  href="#contact"
+  className="inline-flex items-center justify-center rounded-full bg-zinc-100 px-5 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-white"
+  style={{ color: "#09090b" }}
+>
+  Contact me
+</a>
 
             <a
               href="/blog"
