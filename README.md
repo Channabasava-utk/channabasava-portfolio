@@ -29,6 +29,16 @@ I enjoy learning by building projects and experimenting with new technologies.
 | AI/ML | Python, Machine Learning |
 | Tools | Git, GitHub, VS Code, Vercel |
 | Mathematics | Linear Algebra, Probability & Statistics |
+## 🏆 Certifications
+
+### AWS Educate – Machine Learning Foundations
+
+**Issued by:** Amazon Web Services (AWS)
+
+A foundational credential covering machine learning concepts and AWS-related learning.
+
+🔗 **[Verify my badge on Credly](https://www.credly.com/badges/687e7939-2e17-4ea8-9017-5e29f0328a66/public_url)**
+
 
 ## 🌐 Connect With Me
 
