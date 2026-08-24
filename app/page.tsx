@@ -187,23 +187,36 @@ export default function Home() {
               
 
       <section className="border-y border-zinc-800">
-        <div className="container py-20">
-          <p className="mono text-sm text-sky-300">04 / BLOG</p>
-          <h2 className="mt-3 text-3xl font-semibold">Your writing space.</h2>
-          <div className="card mt-9 p-8">
-            <p className="text-zinc-400">
-              No filler articles. This section is ready for the specific
-              posts you choose to publish later.
-            </p>
-            <a
-              href="/blog"
-              className="mt-5 inline-flex items-center gap-2 text-sm text-sky-300"
-            >
-              Open blog <ArrowUpRight size={16} />
-            </a>
-          </div>
-        </div>
-      </section>
+  <div className="container py-20">
+    <p className="mono text-sm text-sky-300">04 / BLOG</p>
+
+    <h2 className="mt-3 text-3xl font-semibold">
+      Learning, building & sharing.
+    </h2>
+
+    <div className="card mt-9 p-8">
+      <p className="mono text-xs text-sky-300">
+        LATEST ARTICLE
+      </p>
+
+      <h3 className="mt-4 text-2xl font-semibold">
+        Earning My AWS Educate – Machine Learning Foundations Badge
+      </h3>
+
+      <p className="mt-3 max-w-2xl leading-7 text-zinc-400">
+        I’m excited to share my AWS Educate – Machine Learning Foundations
+        badge and reflect on what I learned during my AI/ML journey.
+      </p>
+
+      <a
+        href="/blog"
+        className="mt-6 inline-flex items-center gap-2 text-sm text-sky-300"
+      >
+        Read article <ArrowUpRight size={16} />
+      </a>
+    </div>
+  </div>
+</section>
 
       <section id="contact" className="container py-24">
         <p className="mono text-sm text-sky-300">05 / CONTACT</p>
