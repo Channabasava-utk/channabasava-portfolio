@@ -164,6 +164,26 @@ export default function Home() {
           </div>
         </div>
       </section>
+                <div className="card p-6">
+            <BookOpen />
+            <h3 className="mt-6 text-xl font-semibold">
+              AWS Educate – Machine Learning Foundations
+            </h3>
+            <p className="mt-2 text-zinc-400">
+              Amazon Web Services (AWS)
+            </p>
+            <p className="mt-3 text-sm text-zinc-500">
+              Machine Learning Foundations
+            </p>
+            <a
+              className="mt-5 inline-block rounded-full border border-zinc-700 px-4 py-2 text-sm"
+              href=https://www.credly.com/badges/687e7939-2e17-4ea8-9017-5e29f0328a66/public_url
+              target="_blank"
+              rel="noreferrer"
+            >
+              Verify credential ↗
+            </a>
+          </div>
 
       <section className="border-y border-zinc-800">
         <div className="container py-20">
