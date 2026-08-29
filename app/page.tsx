@@ -416,31 +416,56 @@ export default function Home() {
             Learning, building & sharing.
           </h2>
 
-          <div className="card mt-9 p-8">
+         <div className="grid gap-6 md:grid-cols-2">
 
-            <p className="mono text-xs text-sky-300">
-              LATEST ARTICLE
-            </p>
+  {/* GENERATIVE AI ARTICLE */}
+  <div className="card p-8">
+    <p className="mono text-xs text-sky-300">
+      LATEST ARTICLE
+    </p>
 
-            <h3 className="mt-4 text-2xl font-semibold">
-              Earning My AWS Educate – Machine Learning Foundations Badge
-            </h3>
+    <h3 className="mt-4 text-2xl font-semibold">
+      What I Learned from Generative AI for Everyone
+    </h3>
 
-            <p className="mt-3 max-w-2xl leading-7 text-zinc-400">
-              I&rsquo;m excited to share my AWS Educate – Machine Learning
-              Foundations badge and reflect on what I learned during my
-              AI/ML journey.
-            </p>
+    <p className="mt-3 leading-7 text-zinc-400">
+      A reflection on what I learned about Generative AI,
+      its applications, and how it connects to my AI/ML journey.
+    </p>
 
-            <a
-              href="/blog"
-              className="mt-6 inline-flex items-center gap-2 text-sm text-sky-300"
-            >
-              Read article
-              <ArrowUpRight size={16} />
-            </a>
+    <a
+      href="/blog"
+      className="mt-6 inline-block text-sm font-medium hover:text-sky-300"
+    >
+      Read article ↗
+    </a>
+  </div>
 
-          </div>
+  {/* AWS ARTICLE */}
+  <div className="card p-8">
+    <p className="mono text-xs text-sky-300">
+      ARTICLE
+    </p>
+
+    <h3 className="mt-4 text-2xl font-semibold">
+      Earning My AWS Educate – Machine Learning Foundations Badge
+    </h3>
+
+    <p className="mt-3 leading-7 text-zinc-400">
+      I’m excited to share my AWS Educate – Machine Learning
+      Foundations badge and reflect on what I learned during
+      my AI/ML journey.
+    </p>
+
+    <a
+      href="/blog"
+      className="mt-6 inline-block text-sm font-medium hover:text-sky-300"
+    >
+      Read article ↗
+    </a>
+  </div>
+
+</div>
 
         </div>
       </section>
