@@ -372,7 +372,7 @@ export default function Home() {
             </a>
 
           </div>
-          </div>
+          
 
 {/* GENERATIVE AI FOR EVERYONE */}
 <div className="card p-6">
