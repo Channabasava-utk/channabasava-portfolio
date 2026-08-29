@@ -372,6 +372,33 @@ export default function Home() {
             </a>
 
           </div>
+          </div>
+
+{/* GENERATIVE AI FOR EVERYONE */}
+<div className="card p-6">
+  <BookOpen />
+
+  <h3 className="mt-6 text-xl font-semibold">
+    Generative AI for Everyone
+  </h3>
+
+  <p className="mt-2 text-zinc-400">
+    DeepLearning.AI • Coursera
+  </p>
+
+  <p className="mt-3 text-sm text-zinc-500">
+    Completed Aug 2026
+  </p>
+
+  <a
+    className="mt-5 inline-block rounded-full border border-zinc-700 px-4 py-2 text-sm"
+    href="https://coursera.org/verify/ENBYGWAAH59E"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Verify credential ↗
+  </a>
+</div>
 
         </div>
       </section>
