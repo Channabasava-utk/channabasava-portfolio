@@ -519,7 +519,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/channabasava-utk-b60bb6327"
+            https:"//www.linkedin.com/in/mr-channabasava-b60bb6327/"
             target="_blank"
             rel="noreferrer"
             className="rounded-xl border border-zinc-700 px-5 py-4 text-sm transition hover:border-sky-400 hover:text-sky-300"
