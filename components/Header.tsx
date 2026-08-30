@@ -29,7 +29,7 @@ export default function Header() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/channabasava-utk-b60bb6327"
+           href="https://www.linkedin.com/in/mr-channabasava-b60bb6327/"
             target="_blank"
             rel="noreferrer"
           >
