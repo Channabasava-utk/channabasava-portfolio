@@ -132,6 +132,7 @@ export default function Home() {
           </h2>
 
           <div className="mt-9 grid gap-5 md:grid-cols-3">
+            
 
             {expertise.map(({ icon: Icon, title, items }) => (
 
@@ -172,6 +173,80 @@ export default function Home() {
           </h2>
 
           <div className="mt-9 grid gap-5">
+            {/* STOCKLAB MAX — FLAGSHIP PROJECT */}
+<div className="card p-7 border border-sky-400/30">
+
+  <div className="flex items-start justify-between gap-4">
+
+    <div>
+      <div className="mono mb-3 inline-flex rounded-full border border-sky-400/30 px-3 py-1 text-xs text-sky-300">
+        NEW PROJECT • FLAGSHIP • v1.0.0
+      </div>
+
+      <Code2 size={22} />
+
+      <h3 className="mt-6 text-2xl font-semibold">
+        StockLab MAX
+      </h3>
+
+      <p className="mt-3 max-w-3xl leading-7 text-zinc-400">
+        An AI-powered quantitative research and experimentation platform
+        for systematic stock research, backtesting, validation,
+        machine-learning experiments, portfolio analytics, market-regime
+        analysis, and paper trading.
+      </p>
+    </div>
+
+  </div>
+
+  <div className="mt-5 flex flex-wrap gap-2">
+
+    <span className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400">
+      Python
+    </span>
+
+    <span className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400">
+      FastAPI
+    </span>
+
+    <span className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400">
+      Pandas
+    </span>
+
+    <span className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400">
+      NumPy
+    </span>
+
+    <span className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400">
+      Machine Learning
+    </span>
+
+    <span className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400">
+      Quant Research
+    </span>
+
+    <span className="rounded-full border border-zinc-700 px-3 py-1 text-xs text-zinc-400">
+      Docker
+    </span>
+
+  </div>
+
+  <div className="mt-7 flex flex-wrap gap-3">
+
+    <a
+      href="https://github.com/Channabasava-utk/StockLAB-Max"
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex items-center gap-2 rounded-full border border-zinc-700 px-4 py-2 text-sm transition hover:border-sky-400 hover:text-sky-300"
+    >
+      GitHub
+      <ExternalLink size={15} />
+    </a>
+
+  </div>
+
+</div>
+            
 
             <div className="card p-7">
 
