@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Header from "@/components/Header";
 import ContactForm from "@/components/ContactForm";
-import { ArrowUpRight, Github, Linkedin, Mail, Cpu, Activity, GraduationCap, Award } from "lucide-react";
+import { ArrowUpRight, Github, Linkedin, Mail, Cpu, Activity, GraduationCap, Award, Terminal } from "lucide-react";
 
 const projects = [
  {title:"StockLAB-Max",tag:"QUANTITATIVE RESEARCH",desc:"A systematic stock research workspace for backtesting, walk-forward validation, Monte Carlo experiments and portfolio analytics.",tech:"Python · NumPy · Pandas · SQLite · Machine Learning",url:"https://github.com/Channabasava-utk/StockLAB-Max"},
